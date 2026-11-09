@@ -1,0 +1,6 @@
+{
+  "name": "AI Film Studio",
+  "description": "پلتفرم خودمختار تولید فیلم و محتوای سینمایی با هوش مصنوعی و مدل‌های پیشرفته",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

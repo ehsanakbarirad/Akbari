@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  .font-cinematic {
+    font-family: 'Cinzel', 'Vazirmatn', serif;
+  }
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Cinematic film grain & glow effects */
+.cinematic-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 158, 11, 0.15);
+}
+
+.amber-border-glow {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25);
+}
